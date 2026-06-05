@@ -6,9 +6,9 @@ A full-stack web dashboard for monitoring and visualizing security events. Built
 
 ## Features
 
-- Alert monitoring — Browse, filter, and inspect security alerts by severity, status, and category
+- Alert monitoring — Browse, filter and inspect security alerts by severity, status, and category
 - System metrics — View key operational metrics (threats, blocked requests, patch compliance, etc.)
-- Summary dashboard — At-a-glance counts, uptime, MTTA, and severity distribution chart
+- Summary dashboard — At-a-glance counts, uptime, MTTA and severity distribution chart
 - REST API — Documented FastAPI endpoints with OpenAPI at `/docs`
 - Auto-refresh — Dashboard polls for updates every 30 seconds
 - CI/CD — GitHub Actions for automated testing and build artifacts
