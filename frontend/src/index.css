@@ -1,0 +1,46 @@
+:root {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-card: #ffffff;
+  --bg-elevated: #f8fafc;
+  --border: #e2e8f0;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --accent: #334155;
+  --accent-glow: rgba(51, 65, 85, 0.08);
+  --severity-low: #16a34a;
+  --severity-medium: #ca8a04;
+  --severity-high: #ea580c;
+  --severity-critical: #dc2626;
+  --status-healthy: #16a34a;
+  --status-warning: #ca8a04;
+  --status-critical: #dc2626;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-sans);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button,
+select {
+  font-family: inherit;
+}

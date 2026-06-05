@@ -1,0 +1,53 @@
+.severity-chart {
+  padding: 1.25rem;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.severity-chart__title {
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.severity-chart__bars {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.severity-chart__row {
+  display: grid;
+  grid-template-columns: 72px 1fr 28px;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.severity-chart__label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.severity-chart__track {
+  height: 10px;
+  border-radius: 5px;
+  background: var(--bg-elevated);
+  overflow: hidden;
+}
+
+.severity-chart__bar {
+  height: 100%;
+  border-radius: 5px;
+  min-width: 4px;
+  transition: width 0.4s ease;
+}
+
+.severity-chart__count {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-align: right;
+}

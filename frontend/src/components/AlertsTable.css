@@ -1,0 +1,110 @@
+.alerts-table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+}
+
+.alerts-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.alerts-table th {
+  padding: 0.85rem 1rem;
+  text-align: left;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elevated);
+  white-space: nowrap;
+}
+
+.alerts-table td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.alerts-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.alerts-table tbody tr:hover {
+  background: rgba(148, 163, 184, 0.08);
+}
+
+.alerts-table__title {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.alerts-table__description {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  max-width: 360px;
+}
+
+.alerts-table__mono {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.alerts-table__empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-secondary);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.badge--severity-low {
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--severity-low);
+}
+
+.badge--severity-medium {
+  background: rgba(202, 138, 4, 0.1);
+  color: var(--severity-medium);
+}
+
+.badge--severity-high {
+  background: rgba(234, 88, 12, 0.1);
+  color: var(--severity-high);
+}
+
+.badge--severity-critical {
+  background: rgba(220, 38, 38, 0.1);
+  color: var(--severity-critical);
+}
+
+.badge--status-open {
+  background: rgba(37, 99, 235, 0.1);
+  color: #2563eb;
+}
+
+.badge--status-acknowledged {
+  background: rgba(202, 138, 4, 0.1);
+  color: var(--severity-medium);
+}
+
+.badge--status-resolved {
+  background: rgba(22, 163, 74, 0.1);
+  color: var(--severity-low);
+}

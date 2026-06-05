@@ -1,0 +1,49 @@
+.app {
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -20%, rgba(148, 163, 184, 0.12), transparent),
+    var(--bg-primary);
+}
+
+.app__main {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1.5rem 2rem 3rem;
+}
+
+.app__grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.app__section-title {
+  margin: 0 0 1rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.app__error {
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--severity-critical);
+  border-radius: 8px;
+  background: rgba(220, 38, 38, 0.06);
+  color: #b91c1c;
+}
+
+.app__loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40vh;
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .app__main {
+    padding: 1rem;
+  }
+}
