@@ -105,7 +105,7 @@ cd frontend && npm run lint && npm run build
 
 ## Documentation
 
-See [docs/architecture.md](docs/architecture.md) for system design, security practices, and extension ideas.
+See [docs/architecture.md](docs/architecture.md) for system design, security practices and extension ideas.
 
 ## License
 
